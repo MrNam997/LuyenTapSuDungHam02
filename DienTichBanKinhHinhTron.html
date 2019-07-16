@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<!--    tinh dien tich va chu vi duong tron-->
+<script>
+    function Circle(radius) {
+        this.radius = radius;
+        this.getRadius =  function () {
+            return radius;
+        }
+        this.getArea = function () {
+            return Math.PI * this.radius * this.radius;
+        }
+    }
+    let cirle1 = new Circle(3);
+    let radius =  cirle1.getRadius();
+
+    let area = cirle1.getArea();
+    document.write("radius = " + radius + "<br>" + "area = " + area);
+</script>
+</body>
+</html>

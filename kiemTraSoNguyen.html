@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    // kiem tra so nguyen duong va so nguyen am
+    function kiemTra(a) {
+        let check = true;
+        if (a < 0){
+            check = false;
+        }
+        return check;
+    }
+    let nhap = prompt("nhap so:");
+    let number = kiemTra(nhap);
+    document.write(number);
+
+</script>
+
+</body>
+</html>

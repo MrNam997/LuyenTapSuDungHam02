@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+//tính giai thua
+    function Giaithua(a) {
+        giaiThua = 1;
+        for (let i = 1 ; i <= a ; i++){
+            giaiThua *= i;
+        }
+        return giaiThua;
+    }
+    let nhap = prompt("nhap so giai thua:");
+    let result = Giaithua(nhap);
+    document.write("giai thua cua " + nhap + "! = " + result);
+</script>
+
+</body>
+</html>
